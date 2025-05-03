@@ -1,0 +1,14 @@
+user_name,operation,vm_name,network,image,size,flavour
+Arnav,Create Volume,data-disk,External_Net_MUM,Ubuntu-24.04,60,
+Arnav,Create Volume,data-disk,External_Net_MUM,Ubuntu-24.04,10,
+test user,Create Volume,mydisk,External_Net_MUM,Ubuntu-24.04,10,
+test user,Network Creation,yellow-net,External_Net_MUM,Ubuntu-24.04,0,{}
+test user,Create VM,aceHack,External_Net_MUM,Ubuntu-24.04,4,
+test user,Create VM,aceHack,[],"{'name': 'Ubuntu 20.04', 'size': 4096}",4096,S.4
+test user,Create VM,aceHack,External_Net_MUM,Ubuntu-24.04,60,S.4
+test user,Create Volume,mydisk,External_Net_MUM,Ubuntu-24.04,10,
+test user,Delete Volume,test-vm,External_Net_MUM,Ubuntu-24.04,60,
+test user,Delete Volume,test-vm,External_Net_MUM,Ubuntu-24.04,,
+test user,Delete Volume,mydisk,External_Net_MUM,Ubuntu-24.04,0,{}
+test user,Create Volume,uniqueDisk,External_Net_MUM,Ubuntu-24.04,10,
+test user,Delete Volume,uniqueDisk,External_Net_MUM,Ubuntu-24.04,0,{}
